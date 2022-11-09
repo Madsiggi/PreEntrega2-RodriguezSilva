@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OSL Consultores - Contacto</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__logo"
+        src="../assets/images/logoipsum-287.svg"
+        alt="logo"
+      />
+      <nav>
+        <ul class="header__navBar">
+          <li class="header__navBtn"><a href="../index.html">Inicio</a></li>
+          <li class="header__navBtn"><a href="./nosotros.html">Nosotros</a></li>
+          <li class="header__navBtn">
+            <a href="./servicios.html">Servicios</a>
+          </li>
+          <li class="header__navBtn"><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <h1 class="hero__title">Hero Title</h1>
+        <h2 class="hero__subtitle">Hero subtitle</h2>
+      </section>
+    </header>
+    <main>
+      <section class="contactoMain">
+        <article class="contactoMain__form">
+          <h3>Consúltenos</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            ratione at. Assumenda officiis voluptas temporibus, quis deleniti,
+            commodi aut eum minus, ipsum accusantium doloremque incidunt ab!
+            Laudantium id adipisci in ducimus blanditiis quaerat doloribus
+            voluptate illo, aliquid ab itaque vel vero ipsam veniam, deserunt
+            qui inventore earum ex quas totam.
+          </p>
+          <form action="">
+            <fieldset>
+              <legend>Seleccione una opción</legend>
+              <div class="contactoMain__form__radio">
+                <div>
+                  <input
+                    type="radio"
+                    name="contacto"
+                    id="cotizacion"
+                    value="cotizacion"
+                  />
+                  <label for="cotizacion">Cotización</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="contacto"
+                    id="consultas"
+                    value="consultas"
+                  />
+                  <label for="consultas">Consultas</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="contacto"
+                    id="partnership"
+                    value="partnership"
+                  />
+                  <label for="partnership">Partnership</label>
+                </div>
+                <div>
+                  <input type="radio" name="contacto" id="otro" value="otro" />
+                  <label for="otro">Otro</label>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Complete los campos</legend>
+              <input
+                class="inputTxt"
+                type="text"
+                id="nombreApellido"
+                name="nombre-apellido"
+                placeholder="Nombre y Apellido"
+                required
+              />
+              <input
+                class="inputTxt"
+                type="email"
+                id="correoElectronico"
+                name="correo-electronico"
+                placeholder="ejemplo@dominio.com"
+                required
+              />
+              <input
+                class="inputTxt"
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="+5491234567890"
+              />
+              <textarea
+                id="mensaje"
+                cols="30"
+                rows="10"
+                name="mensaje"
+                placeholder="Escriba aquí su mensaje"
+                required
+              ></textarea>
+              <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
+        </article>
+        <article class="contactoMain__map">
+          <h3>Nuestra Oficina</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212999.19830001076!2d-70.77025735297322!3d-33.47242238195038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses-419!2sar!4v1665622004141!5m2!1ses-419!2sar"
+            width="510"
+            height="510"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <h4>Dirección</h4>
+          <p>Av. Ejemplo 123 Of. 321, Ciudad, País.</p>
+          <p>+54 9 11 123456789</p>
+          <p>empresa@dominio.com</p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__formulario">
+          <h2>Contacto</h2>
+          <h3>Texto contacto</h3>
+          <form action="">
+            <fieldset>
+              <label for="nombreApellido">Su nombre</label>
+              <input
+                type="text"
+                name="nombre-apellido"
+                placeholder="Nombre y Apellido"
+                required
+              />
+              <label for="correoElectronico">Su correo electrónico</label>
+              <input
+                type="email"
+                name="correo-electronico"
+                placeholder="ejemplo@dominio.com"
+                required
+              />
+              <label for="telefono">Su Teléfono</label>
+              <input type="tel" name="telefono" placeholder="+5491234567890" />
+              <label for="mensaje">Su mensaje</label>
+              <textarea
+                cols="30"
+                rows="10"
+                name="mensaje"
+                placeholder="Escriba aquí su mensaje"
+                required
+              ></textarea>
+              <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="footer__sitemap">
+          <h2>Sitemap</h2>
+          <h3>Nuestros sitios</h3>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="./postula.html">Trabaja con nosotros</a></li>
+          </ul>
+        </div>
+        <div class="footer__contactInfo">
+          <img
+            class="footer__contactInfo__logo"
+            src="../assets/images/logoipsum-287.svg"
+            alt="logo"
+          />
+          <div class="footer__contactInfo__element">
+            <img
+              src="../assets/images/phone-solid.svg"
+              width="5%"
+              alt="telefono"
+            />
+            <p>+ 54 9 11 12345678</p>
+          </div>
+          <div class="footer__contactInfo__element">
+            <img
+              src="../assets/images/envelope-solid.svg"
+              width="5%"
+              alt="sobre"
+            />
+            <p>contacto@compañia.com</p>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">
+        Copyright 2022. Todos los derechos reservados. Jorge Rodriguez
+      </p>
+    </footer>
+  </body>
+</html>

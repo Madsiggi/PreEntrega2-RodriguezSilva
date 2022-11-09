@@ -1,0 +1,542 @@
+html {
+  font-size: 10px;
+}
+
+.header {
+  background-color: #181d41;
+}
+
+.header__navBar {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.header__logo {
+  padding: 3rem;
+  margin: 3rem;
+  background-color: #474e83;
+}
+
+.header__navBtn {
+  display: inline;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: Raleway, serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header__navBtn a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__navBtn a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__navBtn a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.header__navBtna :active {
+  text-decoration: none;
+}
+
+.hero__title {
+  text-align: center;
+  padding-top: 10rem;
+  font-family: Merriweather, serif;
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.hero__subtitle {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  font-family: Merriweather, serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.sectionTitle {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: Merriweather, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.serviciosIndex {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.serviciosIndex__element {
+  display: inline;
+  width: 30rem;
+}
+
+.serviciosIndex__element img {
+  display: block;
+  padding: 0.5rem;
+}
+
+.serviciosIndex__element h3 {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  font-family: Merriweather, serif;
+}
+.serviciosIndex__element p {
+  font-family: Merriweather, serif;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  word-wrap: break-word;
+}
+
+/* para flexbox */
+.group {
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.clients h2 {
+  color: #ffffff;
+}
+
+.clients h3,
+.servicios__otros h3 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-family: Merriweather, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.clients,
+.servicios__otros {
+  background-color: #181d41;
+  padding-bottom: 10rem;
+}
+.clients__logos,
+.servicios__otros__servicios {
+  display: flex;
+  margin: 0 2rem;
+  justify-content: space-between;
+}
+
+.nosotrosMain h3,
+.nosotrosTxt__group h3,
+.nosotrosBoard h3,
+.nosotrosPostula h3,
+.serviciosMain h3 {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: Merriweather, serif;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.nosotrosMain p,
+.nosotrosTxt__group p,
+.serviciosMain p {
+  max-width: 30%;
+  text-align: center;
+  font-family: Merriweather, serif;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  word-wrap: break-word;
+}
+
+.nosotrosMain img {
+  margin-left: 70%;
+}
+
+.nosotrosTxt {
+  padding: 5rem;
+}
+
+.nosotrosBoard,
+.nosotrosPostula {
+  background-color: #181d41;
+}
+
+.nosotrosBoard h3,
+.nosotrosPostula h3 {
+  color: #ffffff;
+}
+
+.nosotrosBoard h4,
+.nosotrosPostula h4 {
+  text-align: center;
+  font-family: Merriweather, serif;
+  padding: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.nosotrosBoard p,
+.nosotrosPostula p {
+  text-align: center;
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  padding-bottom: 3rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.nosotrosBoard div {
+  display: flex;
+  justify-content: center;
+}
+
+.nosotrosPostula a:link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.nosotrosPostula a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nosotrosPostula a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.nosotrosPostula :active {
+  text-decoration: none;
+}
+
+.serviciosMain {
+  margin: 5rem;
+}
+
+.serviciosMain__1 img {
+  margin-left: 30%;
+}
+
+.serviciosMain__2 img {
+  margin-left: 60%;
+}
+
+.servicios__otros {
+  padding: 3rem;
+}
+
+.servicios__otros__servicios {
+  margin: 0 10rem;
+}
+
+.servicios__otros__servicios h4 {
+  text-align: center;
+  font-family: Merriweather, serif;
+  padding: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.servicios__otros__servicios p {
+  text-align: center;
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  padding-bottom: 3rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.servicios__otros__servicios a:link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.servicios__otros__servicios a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.servicios__otros__servicios a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.servicios__otros__servicios :active {
+  text-decoration: none;
+}
+.contactoMain,
+.postulaMain {
+  display: flex;
+  padding-bottom: 4rem;
+}
+
+.contactoMain__form,
+.contactoMain__map,
+.postulaMain__form,
+.postulaMain__desc {
+  display: inline-block;
+  max-width: 50%;
+}
+
+.contactoMain__form h3,
+.contactoMain__form legend,
+.contactoMain__map h3,
+.postulaMain__form h3,
+.postulaMain__form legend,
+.postulaMain__desc h3 {
+  text-align: center;
+  font-family: Raleway, san-serif;
+  padding: 2rem;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.4rem;
+}
+
+.contactoMain__form p,
+.postulaMain__form p,
+.postulaMain__desc p {
+  text-align: left;
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  line-height: 1.5rem;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 3rem;
+  color: #000000;
+  font-size: 1.3rem;
+}
+
+.postulaMain__form__check .contactoMain__form,
+.contactoMain__map,
+.postulaMain__form {
+  display: inline-block;
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contactoMain__form__radio,
+.postulaMain__form__check {
+  text-align: left;
+  margin-left: 30%;
+}
+
+.contactoMain__form__radio div {
+  line-height: 3rem;
+}
+
+.contactoMain__form,
+.contactoMain__map {
+  display: inline;
+  max-width: 50%;
+}
+
+.contactoMain__form .inputTxt,
+.contactoMain__form textarea,
+.contactoMain__form button,
+.postulaMain__form .inputTxt,
+.postulaMain__form textarea,
+.postulaMain__form button {
+  display: block;
+  margin: 0 auto;
+  margin: 1rem auto;
+}
+
+.attach {
+  display: inline-block;
+}
+
+.attach label,
+.attach input,
+.attach button {
+  display: block;
+  margin: 1.5rem auto;
+  font-size: 1.2rem;
+}
+
+.contactoMain__map h4 {
+  text-align: center;
+  font-family: Merriweather, serif;
+  padding: 2rem;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.contactoMain__map p {
+  text-align: left;
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  line-height: 1.5rem;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 1rem;
+  color: #000000;
+  font-size: 1.3rem;
+}
+
+.postulaMain__desc p,
+.postulaMain__desc h3 {
+  margin: 2rem;
+}
+
+.postulaMain__desc ul li {
+  display: block;
+  text-align: left;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 3rem;
+  max-width: 50%;
+  margin: auto;
+}
+
+.footer__container {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Raleway, sans-serif;
+  padding: 1rem;
+}
+
+.footer h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: Raleway, sans-serif;
+  padding: 1rem;
+}
+
+.footer div div {
+  margin: 2rem 10rem;
+}
+
+.footer__formulario {
+  display: inline-block;
+}
+
+.footer__formulario label {
+  display: block;
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer__formulario input,
+.footer__formulario textarea,
+.footer__formulario button {
+  display: block;
+  margin: 0 auto;
+  margin: 1rem auto;
+}
+
+.footer__sitemap {
+  display: inline-block;
+}
+
+.footer__sitemap ul li {
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: Raleway, sans-serif;
+}
+
+.footer__sitemap a:link {
+  color: #ffffff;
+}
+
+.footer__sitemap a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__sitemap a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.footer__sitemap :active {
+  text-decoration: none;
+}
+
+.footer__contactInfo {
+  display: inline-block;
+}
+
+.footer__contactInfo__logo {
+  display: block;
+  background-color: #474e83;
+  padding: 2rem;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+}
+
+.footer__contactInfo__element {
+  display: inline;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-family: Raleway, sans-serif;
+  color: #ffffff;
+}
+.footer__contactInfo__element img {
+  display: block;
+  background-color: #ffffff;
+  width: 1.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.footer__contactInfo__element p {
+  margin: 2rem;
+}
+
+.footer__copyright {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 1rem;
+  font-family: Merriweather, serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
