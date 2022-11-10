@@ -12,6 +12,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/styles_bs.css" />
     <!-- <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,7 +62,7 @@
         </header>
       </div> -->
       <!-- V.1  -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg color-base">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img src="./assets/images/logoipsum-287.svg" alt="logo"
@@ -82,12 +83,17 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav d-flex align-items-center m-3">
-              <a class="nav-link active px-3" aria-current="page" href="#"
+              <a
+                class="nav-link fw-bold active px-3 color-text"
+                aria-current="page"
+                href="#"
                 >Inicio</a
               >
-              <a class="nav-link px-3" href="#">Nosotros</a>
-              <a class="nav-link px-3" href="#">Servicios</a>
-              <a class="nav-link px-3" href="#">Contacto</a>
+              <a class="nav-link px-3 fw-light color-text" href="#">Nosotros</a>
+              <a class="nav-link px-3 fw-light color-text" href="#"
+                >Servicios</a
+              >
+              <a class="nav-link px-3 fw-light color-text" href="#">Contacto</a>
             </div>
           </div>
         </div>
@@ -108,7 +114,7 @@
         </ul>
       </nav> -->
       <!-- v.1 -->
-      <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="text-secondary px-4 py-5 text-center color-dark">
         <div class="mt-5 pt-5">
           <h1 class="display-5 fw-bold text-white">Hero Titulo</h1>
           <div class="col-lg-6 mx-auto">
@@ -226,8 +232,8 @@
         </div>
       </section> -->
       <!-- V.1 -->
-      <div class="container px-4 py-5 text-center">
-        <h2 class="pb-2 border-bottom">Clientes Index</h2>
+      <div class="container-fluid px-4 py-5 text-center color-dark pb-5">
+        <h2 class="pb-2 border-bottom color-text">Clientes Index</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-md-3 row-cols-xxl-6">
           <div class="col">
             <img src="./assets/images/placeholder195.png" alt="cliente1" />
@@ -265,15 +271,17 @@
     </main>
     <footer>
       <!-- v.1 -->
-      <div class="container-fluid text-center">
-        <div class="row border-bottom pb-3 row-cols-1 row-cols-md-3">
-          <div class="col-md-6 mb-5">
-            <h2 class="fs-4">Contacto</h2>
-            <h3 class="fs-5">Texto contacto</h3>
+      <div class="container-fluid text-center color-base pt-5">
+        <div class="row border-bottom pb-3 row-cols-1 row-cols-md-3 g-2">
+          <div class="col mb-5">
+            <h2 class="fs-4 color-text">Contacto</h2>
+            <h3 class="fs-5 color-text">Texto contacto</h3>
             <div class="container">
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="nombreApellido" class="form-label">Nombre</label>
+              <form class="row g-3 justify-content-center">
+                <div class="col-12 col-md-6">
+                  <label for="nombreApellido" class="form-label color-text"
+                    >Nombre</label
+                  >
                   <input
                     type="text"
                     class="form-control"
@@ -282,8 +290,10 @@
                     required
                   />
                 </div>
-                <div class="col-md-6">
-                  <label for="telefono" class="form-label">Teléfono</label>
+                <div class="col-12 col-md-6">
+                  <label for="telefono" class="form-label color-text"
+                    >Teléfono</label
+                  >
                   <input
                     type="tel"
                     class="form-control"
@@ -291,11 +301,13 @@
                     name="telefono"
                   />
                 </div>
-                <div class="col-md-12">
-                  <label for="inputEmail" class="form-label">Email</label>
+                <div class="col-12">
+                  <label for="inputEmail" class="form-label color-text"
+                    >Email</label
+                  >
                   <input type="email" class="form-control" id="inputEmail" />
                 </div>
-                <div class="form-floating">
+                <div class="form-floating col-12">
                   <textarea
                     class="form-control"
                     placeholder="Envíenos sus consultas."
@@ -309,7 +321,20 @@
               </form>
             </div>
           </div>
-          <div class="col-md-3 mb-5">
+          <nav class="nav flex-column col text-center mb-3 px-3">
+            <h3 class="fs-4 pb-3 color-text">Sitemap</h3>
+            <a
+              class="nav-link active color-text fw-bold"
+              aria-current="page"
+              href="#"
+              >Inicio</a
+            >
+            <a class="nav-link color-text fw-light" href="#">Nosotros</a>
+            <a class="nav-link color-text fw-light" href="#">Servicios</a>
+            <a class="nav-link color-text fw-light">Contacto</a>
+            <a class="nav-link color-text fw-light">Trabaja con Nosotros</a>
+          </nav>
+          <!-- <div class="col-md-3 mb-5">
             <h3 class="fs-4">Sitemap</h3>
             <ul class="nav flex-column align-items-baseline px-4">
               <li class="nav-item">
@@ -332,9 +357,9 @@
                 >
               </li>
             </ul>
-          </div>
-          <div class="col-md-3">
-            <div class="flex-column">
+          </div> -->
+          <div class="col">
+            <div class="flex-column color-text">
               <img src="./assets/images/logoipsum-287.svg" alt="logo" />
               <div
                 class="d-flex justify-content-center align-items-baseline pt-5"
@@ -434,9 +459,9 @@
         </div>
       </div>
       -->
-      <div class="text-center p-4">
-        <p class="text-reset fw-bold">
-          Copyright 2022. Todos los derechos reservados. Jorge Rodriguez
+      <div class="text-center px-4 pt-1">
+        <p class="text-reset">
+          Copyright 2022. Todos los derechos reservados. Jorge Rodriguez Silva
         </p>
       </div>
     </footer>

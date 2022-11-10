@@ -1,0 +1,19 @@
+.color-base {
+  background-color: #223867;
+}
+
+.color-dark {
+  background-color: #14213d;
+}
+
+.color-accent {
+  background-color: #eaf6ff;
+}
+
+.navbar-nav .nav-link.color-text {
+  color: #eaf6ff;
+}
+
+.color-text {
+  color: #eaf6ff;
+}
