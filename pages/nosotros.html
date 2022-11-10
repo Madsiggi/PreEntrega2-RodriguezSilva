@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OSL Consultores - Nosotros</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles_bs.css" />
+    <!-- Original
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +21,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -32,8 +41,53 @@
     />
   </head>
   <body>
-    <header class="header">
-      <img
+    <header>
+      <nav class="navbar navbar-expand-lg color-base">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="../assets/images/logoipsum-287.svg" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse show justify-content-lg-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav d-flex align-items-center m-3">
+              <a class="nav-link fw-light px-3 color-text" href="../index.html"
+                >Inicio</a
+              >
+              <a
+                class="nav-link fw-bold active px-3 fw-light color-text"
+                aria-current="page"
+                href="#"
+                >Nosotros</a
+              >
+              <a
+                class="nav-link px-3 fw-light color-text"
+                href="./servicios.html"
+                >Servicios</a
+              >
+              <a
+                class="nav-link px-3 fw-light color-text"
+                href="./contacto.html"
+                >Contacto</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Original
+        <img
         class="header__logo"
         src="../assets/images/logoipsum-287.svg"
         alt="logo"
@@ -47,14 +101,77 @@
           </li>
           <li class="header__navBtn"><a href="./contacto.html">Contacto</a></li>
         </ul>
-      </nav>
-      <section class="hero">
+      </nav> -->
+      <!-- v.1 -->
+      <div class="text-secondary px-4 py-5 text-center color-dark">
+        <div class="mt-5 pt-5">
+          <h1 class="display-5 fw-bold text-white">Hero Titulo</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">Hero subtítulo</p>
+          </div>
+        </div>
+      </div>
+      <!-- Original
+        <section class="hero">
         <h1 class="hero__title">Hero Title</h1>
         <h2 class="hero__subtitle">Hero subtitle</h2>
-      </section>
+      </section> -->
     </header>
     <main>
-      <section class="nosotrosMain">
+      <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-md-2 justify-content-evenly">
+          <div class="col col-md-6 pb-3">
+            <h3 class="fs-5 text-center text-md-start">Perfil de la empresa</h3>
+            <p class="text-align-justify">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Recusandae a, ducimus corrupti facilis, suscipit facere hic odit
+              aut quia voluptatum aperiam tempora dolorum ipsam dolorem ad eos
+              at consectetur quas modi aliquam magnam nulla! Quaerat harum dolor
+              rerum, commodi reiciendis porro quia quam, non nulla dolores id
+              nesciunt esse! Iusto culpa nisi atque maiores molestias corporis.
+              Cupiditate esse debitis aliquam.
+            </p>
+          </div>
+          <div class="col col-md-4 text-center">
+            <img src="../assets/images/placeholder300.png" alt="servicio1" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid px-4 py-5 color-dark">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 justify-content-evenly">
+            <div class="col">
+              <h3 class="fs-5 text-center text-md-start color-text">
+                Nuestro compromiso
+              </h3>
+              <p class="text-align-justify color-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Recusandae a, ducimus corrupti facilis, suscipit facere hic odit
+                aut quia voluptatum aperiam tempora dolorum ipsam dolorem ad eos
+                at consectetur quas modi aliquam magnam nulla! Quaerat harum
+                dolor rerum, commodi reiciendis porro quia quam, non nulla
+                dolores id nesciunt esse! Iusto culpa nisi atque maiores
+                molestias corporis. Cupiditate esse debitis aliquam.
+              </p>
+            </div>
+            <div class="col">
+              <h3 class="fs-5 text-center text-md-start color-text">Misión</h3>
+              <p class="text-align-justify color-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Recusandae a, ducimus corrupti facilis, suscipit facere hic odit
+                aut quia voluptatum aperiam tempora dolorum ipsam dolorem ad eos
+                at consectetur quas modi aliquam magnam nulla! Quaerat harum
+                dolor rerum, commodi reiciendis porro quia quam, non nulla
+                dolores id nesciunt esse! Iusto culpa nisi atque maiores
+                molestias corporis. Cupiditate esse debitis aliquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Original
+        <section class="nosotrosMain">
         <article>
           <h3>Perfil de la empresa</h3>
           <p>
@@ -82,8 +199,54 @@
             ad minim veniam, quis nostrud.
           </p>
         </article>
-      </section>
-      <section>
+      </section> -->
+
+      <div class="container py-4">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col-12 col-md-6">
+            <div class="container">
+              <h3 class="fs-5 text-center pb-3">Nuestros directivos</h3>
+              <div class="row row-cols-1 row-cols-md-2">
+                <div class="col text-center">
+                  <img src="../assets/images/placeholder195.png" alt="socio1" />
+                  <h4 class="fs-6 pt-3">Nombre Apellido</h4>
+                  <p class="fst-italic">Ejemplo cargo gerente</p>
+                </div>
+                <div class="col text-center">
+                  <img src="../assets/images/placeholder195.png" alt="socio2" />
+                  <h4 class="fs-6 pt-3">Nombre Apellido</h4>
+                  <p class="fst-italic">Ejemplo cargo gerente</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="fs-5 text-center pb-3">Únete a nuestro equipo</h3>
+            <div class="container">
+              <h4 class="fs-6 text-center fw-bold">Buscamos gente</h4>
+              <div class="row row-cols-1">
+                <p class="fw-light text-align-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="row justify-content-center">
+                  <a
+                    class="btn btn-secondary btn-sm col-4"
+                    role="button"
+                    href="./postula.html"
+                    >Postula ya</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Original
+        <section>
         <article class="nosotrosBoard">
           <h3>Nuestros directivos</h3>
           <div>
@@ -110,10 +273,111 @@
             <h4><a href="./postula.html">Postula ya</a></h4>
           </div>
         </article>
-      </section>
+      </section> -->
     </main>
     <footer class="footer">
-      <div class="footer__container">
+      <div class="container-fluid text-center color-base pt-5">
+        <div
+          class="row border-bottom pb-3 row-cols-1 row-cols-md-3 justify-content-evenly"
+        >
+          <div class="col-md-4 mb-5">
+            <h2 class="fs-4 color-text">Contacto</h2>
+            <h3 class="fs-5 color-text">Texto contacto</h3>
+            <div class="container">
+              <form class="row g-3 justify-content-center">
+                <div class="col-12 col-md-6">
+                  <label for="nombreApellido" class="form-label color-text"
+                    >Nombre</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombreApellido"
+                    name="nombre-apellido"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="telefono" class="form-label color-text"
+                    >Teléfono</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="telefono"
+                    name="telefono"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail" class="form-label color-text"
+                    >Email</label
+                  >
+                  <input type="email" class="form-control" id="inputEmail" />
+                </div>
+                <div class="form-floating col-12">
+                  <textarea
+                    class="form-control"
+                    placeholder="Envíenos sus consultas."
+                    id="floatingTextarea"
+                  ></textarea>
+                  <label for="floatingTextarea">Mensaje</label>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <nav class="nav flex-column col-md-3 text-center mb-3 px-3">
+            <h3 class="fs-4 pb-3 color-text">Sitemap</h3>
+            <a class="nav-link color-text fw-light" href="../index.html"
+              >Inicio</a
+            >
+            <a
+              class="nav-link active color-text fw-bold"
+              aria-current="page"
+              href="#"
+              >Nosotros</a
+            >
+            <a class="nav-link color-text fw-light" href="./servicios.html"
+              >Servicios</a
+            >
+            <a class="nav-link color-text fw-light" href="./contacto.html"
+              >Contacto</a
+            >
+            <a class="nav-link color-text fw-light" href="./postula.html"
+              >Trabaja con Nosotros</a
+            >
+          </nav>
+          <div class="col-md-3">
+            <div class="flex-column color-text pt-2">
+              <img src="../assets/images/logoipsum-287.svg" alt="logo" />
+              <div
+                class="d-flex justify-content-center align-items-baseline pt-2"
+              >
+                <img
+                  class="m-3"
+                  src="../assets/images/phone-solid.svg"
+                  width="5%"
+                  alt="telefono"
+                />
+                <p>+ 54 9 11 12345678</p>
+              </div>
+              <div class="d-flex justify-content-center align-items-baseline">
+                <img
+                  class="m-3"
+                  src="../assets/images/envelope-solid.svg"
+                  width="5%"
+                  alt="sobre"
+                />
+                <p>contacto@compañia.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Original 
+        <div class="footer__container">
         <div class="footer__formulario">
           <h2>Contacto</h2>
           <h3>Texto contacto</h3>
@@ -189,10 +453,18 @@
             <p>contacto@compañia.com</p>
           </div>
         </div>
+      </div> -->
+      <div class="text-center px-4 pt-1">
+        <p class="text-reset">
+          Copyright 2022. Todos los derechos reservados. Jorge Rodriguez Silva
+        </p>
       </div>
-      <p class="footer__copyright">
-        Copyright 2022. Todos los derechos reservados. Jorge Rodriguez
-      </p>
     </footer>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
