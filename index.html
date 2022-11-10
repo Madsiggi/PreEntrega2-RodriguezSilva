@@ -76,7 +76,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-dark navbar-toggler-icon"></span>
           </button>
           <div
             class="collapse navbar-collapse show justify-content-lg-end"
@@ -89,11 +89,21 @@
                 href="#"
                 >Inicio</a
               >
-              <a class="nav-link px-3 fw-light color-text" href="#">Nosotros</a>
-              <a class="nav-link px-3 fw-light color-text" href="#"
+              <a
+                class="nav-link px-3 fw-light color-text"
+                href="./pages/servicios.html"
+                >Nosotros</a
+              >
+              <a
+                class="nav-link px-3 fw-light color-text"
+                href="./pages/servicios.html"
                 >Servicios</a
               >
-              <a class="nav-link px-3 fw-light color-text" href="#">Contacto</a>
+              <a
+                class="nav-link px-3 fw-light color-text"
+                href="./pages/contacto.html"
+                >Contacto</a
+              >
             </div>
           </div>
         </div>
@@ -272,8 +282,10 @@
     <footer>
       <!-- v.1 -->
       <div class="container-fluid text-center color-base pt-5">
-        <div class="row border-bottom pb-3 row-cols-1 row-cols-md-3 g-2">
-          <div class="col mb-5">
+        <div
+          class="row border-bottom pb-3 row-cols-1 row-cols-md-3 justify-content-evenly"
+        >
+          <div class="col-md-4 mb-5">
             <h2 class="fs-4 color-text">Contacto</h2>
             <h3 class="fs-5 color-text">Texto contacto</h3>
             <div class="container">
@@ -321,7 +333,7 @@
               </form>
             </div>
           </div>
-          <nav class="nav flex-column col text-center mb-3 px-3">
+          <nav class="nav flex-column col-md-3 text-center mb-3 px-3">
             <h3 class="fs-4 pb-3 color-text">Sitemap</h3>
             <a
               class="nav-link active color-text fw-bold"
@@ -329,10 +341,20 @@
               href="#"
               >Inicio</a
             >
-            <a class="nav-link color-text fw-light" href="#">Nosotros</a>
-            <a class="nav-link color-text fw-light" href="#">Servicios</a>
-            <a class="nav-link color-text fw-light">Contacto</a>
-            <a class="nav-link color-text fw-light">Trabaja con Nosotros</a>
+            <a class="nav-link color-text fw-light" href="./pages/nosotros.html"
+              >Nosotros</a
+            >
+            <a
+              class="nav-link color-text fw-light"
+              href="./pages/servicios.html"
+              >Servicios</a
+            >
+            <a class="nav-link color-text fw-light" href="./pages/contacto.html"
+              >Contacto</a
+            >
+            <a class="nav-link color-text fw-light" href="./pages/postula.html"
+              >Trabaja con Nosotros</a
+            >
           </nav>
           <!-- <div class="col-md-3 mb-5">
             <h3 class="fs-4">Sitemap</h3>
@@ -358,11 +380,11 @@
               </li>
             </ul>
           </div> -->
-          <div class="col">
-            <div class="flex-column color-text">
+          <div class="col-md-3">
+            <div class="flex-column color-text pt-2">
               <img src="./assets/images/logoipsum-287.svg" alt="logo" />
               <div
-                class="d-flex justify-content-center align-items-baseline pt-5"
+                class="d-flex justify-content-center align-items-baseline pt-2"
               >
                 <img
                   class="m-3"
