@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OSL Consultores - Inicio</title>
     <link rel="stylesheet" href="./sass/main.css" />
+    <link
+      href="./node_modules/@fortawesome/fontawesome-free/css/all.css"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -55,13 +59,13 @@
         </header>
       </div> -->
       <!-- V.1  -->
-      <nav class="navbar navbar-expand-lg color-base">
+      <nav class="navbar navbar-expand-lg color-base bg-accent">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand bg-light rounded-1 p-2" href="#"
             ><img src="./assets/images/logoipsum-287.svg" alt="logo"
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-accent collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -72,28 +76,28 @@
             <span class="navbar-dark navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse show justify-content-lg-end"
+            class="collapse navbar-collapse justify-content-lg-end"
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav d-flex align-items-center m-3">
               <a
-                class="nav-link fw-bold active px-3 color-text"
+                class="nav-link fw-bold active px-3 text-light"
                 aria-current="page"
                 href="#"
                 >Inicio</a
               >
               <a
-                class="nav-link px-3 fw-light color-text"
+                class="nav-link px-3 fw-light text-light"
                 href="./pages/nosotros.html"
                 >Nosotros</a
               >
               <a
-                class="nav-link px-3 fw-light color-text"
+                class="nav-link px-3 fw-light text-light"
                 href="./pages/servicios.html"
                 >Servicios</a
               >
               <a
-                class="nav-link px-3 fw-light color-text"
+                class="nav-link px-3 fw-light text-light"
                 href="./pages/contacto.html"
                 >Contacto</a
               >
@@ -117,11 +121,18 @@
         </ul>
       </nav> -->
       <!-- v.1 -->
-      <div class="text-secondary px-4 py-5 text-center color-dark">
-        <div class="mt-5 pt-5">
-          <h1 class="display-5 fw-bold text-white">Hero Titulo</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4">Hero subtítulo</p>
+      <div
+        class="masthead"
+        style="background-image: url('./assets/images/bg-tech.jpg')"
+      >
+        <div
+          class="text-light px-4 py-5 text-center color-overlay d-flex justify-content-center align-items-center"
+        >
+          <div class="mt-5 pt-5">
+            <h1 class="display-5 fw-bolder">OSL Consultores</h1>
+            <div class="col-lg-5 mx-auto">
+              <p class="fs-5 mb-4 text-nowrap">Expertos en SAP Retail</p>
+            </div>
           </div>
         </div>
       </div>
@@ -133,17 +144,21 @@
     </header>
     <main>
       <!-- v.1 -->
-      <div class="container px-4 py-5 text-center">
-        <h2 class="pb-2 border-bottom">Servicios Index</h2>
+      <div class="container px-4 py-5 text-center bg-light">
+        <h2 class="pb-2 border-bottom">Nuestros Servicios</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
           <div class="col">
             <div
               class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
             >
-              <img src="./assets/images/placeholder90.png" alt="servicio1" />
+              <img
+                class="img-fluid"
+                src="./assets/images/servicio-illustation1.jpg"
+                alt="servicio1"
+              />
             </div>
-            <h3 class="fs-4 p-3">Nombre servicio</h3>
-            <p>
+            <h3 class="fs-4 pb-3">Asesoría SAP</h3>
+            <p class="text-align-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud.
@@ -153,10 +168,14 @@
             <div
               class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
             >
-              <img src="./assets/images/placeholder90.png" alt="servicio1" />
+              <img
+                class="img-fluid"
+                src="./assets/images/servicio-illustation2.jpg"
+                alt="servicio1"
+              />
             </div>
-            <h3 class="fs-4 p-3">Nombre servicio</h3>
-            <p>
+            <h3 class="fs-4 pb-3">Migración SAP</h3>
+            <p class="text-align-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud.
@@ -166,10 +185,14 @@
             <div
               class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
             >
-              <img src="./assets/images/placeholder90.png" alt="servicio1" />
+              <img
+                class="img-fluid"
+                src="./assets/images/servicio-illustration3.jpg"
+                alt="servicio1"
+              />
             </div>
-            <h3 class="fs-4 p-3">Nombre servicio</h3>
-            <p>
+            <h3 class="fs-4 pb-3">Soporte SAP</h3>
+            <p class="text-align-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud.
@@ -179,10 +202,14 @@
             <div
               class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
             >
-              <img src="./assets/images/placeholder90.png" alt="servicio1" />
+              <img
+                class="img-fluid"
+                src="./assets/images/servicio-illustration4.jpg"
+                alt="servicio1"
+              />
             </div>
-            <h3 class="fs-4 p-3">Nombre servicio</h3>
-            <p>
+            <h3 class="fs-4 pb-3">Outsourcing SAP</h3>
+            <p class="text-align-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud.
@@ -235,26 +262,50 @@
         </div>
       </section> -->
       <!-- V.1 -->
-      <div class="container-fluid px-4 py-5 text-center color-dark pb-5">
-        <h2 class="pb-2 border-bottom color-text">Clientes Index</h2>
+      <div class="container-fluid px-4 py-5 text-center bg-accent pb-5">
+        <h2 class="pb-2 text-light">Nuestros Clientes</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-md-3 row-cols-xxl-6">
-          <div class="col">
-            <img src="./assets/images/placeholder195.png" alt="cliente1" />
+          <div class="col d-flex align-items-center justify-content-center">
+            <img
+              class="img-fluid rounded-2"
+              src="./assets/images/logo-cencosud.png"
+              alt="cliente1"
+            />
           </div>
-          <div class="col">
-            <img src="./assets/images/placeholder195.png" alt="cliente1" />
+          <div class="col d-flex align-items-center justify-content-center">
+            <img
+              class="img-fluid rounded-2"
+              src="./assets/images/construmart.jpg"
+              alt="cliente1"
+            />
           </div>
-          <div class="col">
-            <img src="./assets/images/placeholder195.png" alt="cliente1" />
+          <div class="col d-flex align-items-center justify-content-center">
+            <img
+              class="img-fluid rounded-2"
+              src="./assets/images/casaideas.jpg"
+              alt="cliente1"
+            />
           </div>
-          <div class="col">
-            <img src="./assets/images/placeholder195.png" alt="cliente1" />
+          <div class="col d-flex align-items-center justify-content-center">
+            <img
+              class="img-fluid rounded-2"
+              src="./assets/images/arauco.jpg"
+              alt="cliente1"
+            />
           </div>
-          <div class="col">
-            <img src="./assets/images/placeholder195.png" alt="cliente1" />
+          <div class="col d-flex align-items-center justify-content-center">
+            <img
+              class="img-fluid rounded-2"
+              src="./assets/images/copec.png"
+              alt="cliente1"
+            />
           </div>
-          <div class="col">
-            <img src="./assets/images/placeholder195.png" alt="cliente1" />
+          <div class="col d-flex align-items-center justify-content-center">
+            <img
+              class="img-fluid rounded-2"
+              src="./assets/images/gmo.png"
+              alt="Ópticas GMO"
+            />
           </div>
         </div>
       </div>
@@ -274,17 +325,15 @@
     </main>
     <footer>
       <!-- v.1 -->
-      <div class="container-fluid text-center color-base pt-5">
-        <div
-          class="row border-bottom pb-3 row-cols-1 row-cols-md-3 justify-content-evenly"
-        >
+      <div class="container-fluid text-center bg-dark pt-5">
+        <div class="row pb-3 row-cols-1 row-cols-md-3 justify-content-evenly">
           <div class="col-md-4 mb-5">
-            <h2 class="fs-4 color-text">Contacto</h2>
-            <h3 class="fs-5 color-text">Texto contacto</h3>
+            <h2 class="fs-4 text-light">Contacto</h2>
+            <h3 class="fs-5 text-light">Envíe sus consultas</h3>
             <div class="container">
               <form class="row g-3 justify-content-center">
                 <div class="col-12 col-md-6">
-                  <label for="nombreApellido" class="form-label color-text"
+                  <label for="nombreApellido" class="form-label text-light"
                     >Nombre</label
                   >
                   <input
@@ -296,7 +345,7 @@
                   />
                 </div>
                 <div class="col-12 col-md-6">
-                  <label for="telefono" class="form-label color-text"
+                  <label for="telefono" class="form-label text-light"
                     >Teléfono</label
                   >
                   <input
@@ -307,7 +356,7 @@
                   />
                 </div>
                 <div class="col-12">
-                  <label for="inputEmail" class="form-label color-text"
+                  <label for="inputEmail" class="form-label text-light"
                     >Email</label
                   >
                   <input type="email" class="form-control" id="inputEmail" />
@@ -321,31 +370,31 @@
                   <label for="floatingTextarea">Mensaje</label>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <button type="submit" class="btn btn-light">Enviar</button>
                 </div>
               </form>
             </div>
           </div>
           <nav class="nav flex-column col-md-3 text-center mb-3 px-3">
-            <h3 class="fs-4 pb-3 color-text">Sitemap</h3>
+            <h3 class="fs-4 pb-3 text-light">Sitemap</h3>
             <a
-              class="nav-link active color-text fw-bold"
+              class="nav-link active text-light fw-bold"
               aria-current="page"
               href="#"
               >Inicio</a
             >
-            <a class="nav-link color-text fw-light" href="./pages/nosotros.html"
+            <a class="nav-link text-light fw-light" href="./pages/nosotros.html"
               >Nosotros</a
             >
             <a
-              class="nav-link color-text fw-light"
+              class="nav-link text-light fw-light"
               href="./pages/servicios.html"
               >Servicios</a
             >
-            <a class="nav-link color-text fw-light" href="./pages/contacto.html"
+            <a class="nav-link text-light fw-light" href="./pages/contacto.html"
               >Contacto</a
             >
-            <a class="nav-link color-text fw-light" href="./pages/postula.html"
+            <a class="nav-link text-light fw-light" href="./pages/postula.html"
               >Trabaja con Nosotros</a
             >
           </nav>
@@ -375,26 +424,24 @@
           </div> -->
           <div class="col-md-3">
             <div class="flex-column color-text pt-2">
-              <img src="./assets/images/logoipsum-287.svg" alt="logo" />
+              <img
+                class="bg-light p-2 rounded-3"
+                src="./assets/images/logoipsum-287.svg"
+                alt="logo"
+              />
               <div
                 class="d-flex justify-content-center align-items-baseline pt-2"
               >
-                <img
-                  class="m-3"
-                  src="./assets/images/phone-solid.svg"
-                  width="5%"
-                  alt="telefono"
-                />
-                <p>+ 54 9 11 12345678</p>
+                <span style="font-size: 1em; color: white">
+                  <i class="fa-solid fa-phone p-3"></i>
+                </span>
+                <p class="text-light">+ 54 9 11 12345678</p>
               </div>
               <div class="d-flex justify-content-center align-items-baseline">
-                <img
-                  class="m-3"
-                  src="./assets/images/envelope-solid.svg"
-                  width="5%"
-                  alt="sobre"
-                />
-                <p>contacto@compañia.com</p>
+                <span style="font-size: 1em; color: white">
+                  <i class="fa-regular fa-envelope p-3"></i>
+                </span>
+                <p class="text-light">contacto@compañia.com</p>
               </div>
             </div>
           </div>
@@ -474,8 +521,8 @@
         </div>
       </div>
       -->
-      <div class="text-center px-4 pt-1">
-        <p class="text-reset">
+      <div class="text-center bg-accent px-4 p-2">
+        <p class="text-light">
           Copyright 2022. Todos los derechos reservados. Jorge Rodriguez Silva
         </p>
       </div>

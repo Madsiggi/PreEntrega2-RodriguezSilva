@@ -1,1 +1,50 @@
+$light: #f4f0f1;
+$dark: #0e1633;
+$accent: #223867;
+
+$theme-colors: (
+  "light": $light,
+  "dark": $dark,
+  "accent": $accent,
+);
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+:root {
+  --bs-body-font-family: "Barlow";
+}
+
+.navbar {
+  background: linear-gradient(to right, rgba($accent, 0.95), rgba($dark, 0.95));
+}
+
+.navbar-toggler-icon {
+  border: $light;
+}
+
+.masthead {
+  background-size: cover;
+  background-position: center center;
+  min-height: 50vh;
+  position: relative;
+  color: $light;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768) {
+  .masthead {
+    min-height: 30vh;
+  }
+}
+
+.text-align-justify {
+  text-align: justify;
+}
