@@ -1,5 +1,5 @@
 {
-  "name": "preentrega2-rodriguezsilva",
+  "name": "preentrega3-rodriguezsilva",
   "version": "1.0.0",
   "description": "OSL Consultores, empresa TI de consultoría en SAP ERP, web de servicios y contacto",
   "main": "index.js",
@@ -8,15 +8,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Madsiggi/PreEntrega2-RodriguezSilva.git"
+    "url": "git+https://github.com/Madsiggi/PreEntrega3-RodriguezSilva.git"
   },
-  "keywords": ["SAP","CHILE","RETAIL","ASESORIAS","CONSULTORIAS","IT","ERP","EMPRESAS"],
+  "keywords": [
+    "SAP",
+    "CHILE",
+    "RETAIL",
+    "ASESORIAS",
+    "CONSULTORIAS",
+    "IT",
+    "ERP",
+    "EMPRESAS"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Madsiggi/PreEntrega2-RodriguezSilva/issues"
+    "url": "https://github.com/Madsiggi/PreEntrega3-RodriguezSilva/issues"
   },
-  "homepage": "https://github.com/Madsiggi/PreEntrega2-RodriguezSilva",
+  "homepage": "https://github.com/Madsiggi/PreEntrega3-RodriguezSilva",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
     "bootstrap": "^5.2.3"
