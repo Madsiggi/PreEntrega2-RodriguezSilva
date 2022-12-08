@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OSL Consultores - Servicios</title>
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="OSL Consultores ltda. Empresa líder en asesorías SAP Retail, outsourcing de recursos, proyectos, soporte SAP, más de 20 años de experiencia en consultorías SAP en Latinoamérica."
+    />
+    <meta
+      name="keywords"
+      content="SAP,CHILE,RETAIL,ASESORIAS,CONSULTORIAS,IT,ERP,EMPRESAS"
+    />
+    <title>OSL Consultores - Nosotros</title>
+    <!-- Sass -->
+    <link rel="stylesheet" href="../sass/main.css" />
+    <!-- FONTAWESOME -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.css"
       rel="stylesheet"
     />
+    <!-- favicon -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -32,154 +40,284 @@
     />
   </head>
   <body>
-    <header class="header">
-      <img
-        class="header__logo"
-        src="../assets/images/logoipsum-287.svg"
-        alt="logo"
-      />
-      <nav class="header__navBar">
-        <ul>
-          <li class="header__navBtn"><a href="../index.html">Inicio</a></li>
-          <li class="header__navBtn"><a href="./nosotros.html">Nosotros</a></li>
-          <li class="header__navBtn"><a href="#">Servicios</a></li>
-          <li class="header__navBtn"><a href="./contacto.html">Contacto</a></li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg color-base bg-accent">
+        <div class="container-fluid">
+          <a class="navbar-brand bg-light rounded-1 p-2" href="#"
+            ><img src="../assets/images/logoipsum-287.svg" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler border-accent"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-lg-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav d-flex align-items-center m-3">
+              <a
+                class="nav-link px-3 fw-light text-light"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+              <a
+                class="nav-link px-3 fw-light text-light"
+                href="./nosotros.html"
+                >Nosotros</a
+              >
+              <a class="nav-link fw-bold active px-3 text-light" href="#"
+                >Servicios</a
+              >
+              <a
+                class="nav-link px-3 fw-light text-light"
+                href="./contacto.html"
+                >Contacto</a
+              >
+            </div>
+          </div>
+        </div>
       </nav>
-      <section class="hero">
-        <h1 class="hero__title">Hero Title</h1>
-        <h2 class="hero__subtitle">Hero subtitle</h2>
-      </section>
-    </header>
-    <main>
-      <section class="serviciosMain">
-        <article class="serviciosMain__1">
-          <h3>Nombre servicio</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud. <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vero
-            voluptatum unde odit sit perferendis quae, suscipit nemo
-            exercitationem libero.
-          </p>
-          <img src="../assets/images/placeholder300.png" alt="servicio2" />
-        </article>
-        <article class="serviciosMain__2">
-          <img src="../assets/images/placeholder300.png" alt="servicio2" />
-          <h3>Nombre servicio</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud. <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vero
-            voluptatum unde odit sit perferendis quae, suscipit nemo
-            exercitationem libero.
-          </p>
-        </article>
-      </section>
-      <section class="servicios__otros">
-        <h3>Otros servicios</h3>
-        <article class="servicios__otros__servicios">
-          <div>
-            <img src="../assets/images/placeholder195.png" alt="servicio1" />
-            <h4>Nombre servicio</h4>
-            <p><a href="#">Ver más</a></p>
-          </div>
-          <div>
-            <img src="../assets/images/placeholder195.png" alt="servicio2" />
-            <h4>Nombre servicio</h4>
-            <p><a href="#">Ver más</a></p>
-          </div>
-          <div>
-            <img src="../assets/images/placeholder195.png" alt="servicio1" />
-            <h4>Nombre servicio</h4>
-            <p><a href="#">Ver más</a></p>
-          </div>
-        </article>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__formulario">
-          <h2>Contacto</h2>
-          <h3>Texto contacto</h3>
-          <form action="">
-            <fieldset>
-              <label for="nombreApellido">Su nombre</label>
-              <input
-                type="text"
-                id="nombreApellido"
-                name="nombre-apellido"
-                placeholder="Nombre y Apellido"
-                required
-              />
-              <label for="correoElectronico">Su correo electrónico</label>
-              <input
-                type="email"
-                id="correoElectronico"
-                name="correo-electronico"
-                placeholder="ejemplo@dominio.com"
-                required
-              />
-              <label for="telefono">Su Teléfono</label>
-              <input
-                type="tel"
-                id="telefono"
-                name="telefono"
-                placeholder="+5491234567890"
-              />
-              <label for="mensaje">Su mensaje</label>
-              <textarea
-                id="mensaje"
-                cols="30"
-                rows="10"
-                name="mensaje"
-                placeholder="Escriba aquí su mensaje"
-                required
-              ></textarea>
-              <button type="submit">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-        <div class="footer__sitemap">
-          <h2>Sitemap</h2>
-          <h3>Nuestros sitios</h3>
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./postula.html">Trabaja con nosotros</a></li>
-          </ul>
-        </div>
-        <div class="footer__contactInfo">
-          <img
-            class="footer__contactInfo__logo"
-            src="../assets/images/logoipsum-287.svg"
-            alt="logo"
-          />
-          <div class="footer__contactInfo__element">
-            <img
-              src="../assets/images/phone-solid.svg"
-              width="5%"
-              alt="telefono"
-            />
-            <p>+ 54 9 11 12345678</p>
-          </div>
-          <div class="footer__contactInfo__element">
-            <img
-              src="../assets/images/envelope-solid.svg"
-              width="5%"
-              alt="sobre"
-            />
-            <p>contacto@compañia.com</p>
+      <!-- Hero Section -->
+      <div
+        class="masthead"
+        style="background-image: url('../assets/images/bgservices.jpg')"
+      >
+        <div
+          class="text-light px-4 py-5 text-center color-overlay d-flex justify-content-center align-items-center"
+        >
+          <div class="mt-5 pt-5">
+            <h1
+              class="display-5 fw-bolder bg-black bg-opacity-50 px-1 rounded-2"
+            >
+              Nuestros Servicios
+            </h1>
+            <p
+              class="fs-6 fw-bolder bg-black bg-opacity-50 px-1 rounded-2 mx-4"
+            >
+              La solución a las necesidades de su empresa
+            </p>
           </div>
         </div>
       </div>
-      <p class="footer__copyright">
-        Copyright 2022. Todos los derechos reservados. Jorge Rodriguez
-      </p>
+    </header>
+    <main>
+      <div class="container px-4 px-md-1 pt-5">
+        <div class="row row-cols-1 row-cols-md-2 justify-content-center m-1">
+          <div class="col col-lg-5 pb-3">
+            <h3 class="fs-4 pb-2">Nombre servicio</h3>
+            <p class="text-align-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud. <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              vero voluptatum unde odit sit perferendis quae, suscipit nemo
+              exercitationem libero.
+            </p>
+          </div>
+          <div
+            class="col col-lg-4 d-inline-flex align-items-center justify-content-center justify-content-md-end text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img
+              class="img-fluid"
+              src="../assets/images/servicio-illustration5.jpg"
+              alt="servicio2"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container px-4 px-md-1 pt-5">
+        <div class="row row-cols-1 row-cols-md-2 justify-content-center m-1">
+          <div
+            class="col col-lg-4 d-inline-flex align-items-center justify-content-center justify-content-md-start text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img
+              class="img-fluid"
+              src="../assets/images/servicio-illustration6.jpg"
+              alt="servicio2"
+            />
+          </div>
+          <div class="col col-lg-5 pb-3">
+            <h3 class="fs-4 pb-2">Nombre servicio</h3>
+            <p class="text-align-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud. <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              vero voluptatum unde odit sit perferendis quae, suscipit nemo
+              exercitationem libero.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid px-4 py-5 text-center bg-accent pb-5">
+        <h2 class="pb-2 text-light">Otros servicios</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-md-3 align-items-baseline">
+          <div class="col text-light text-center">
+            <div
+              class="d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 mb-3 portrait-img-size"
+            >
+              <img
+                class="img-fluid rounded-2"
+                src="../assets/images/miniillustrations1.png"
+                alt="cliente1"
+              />
+            </div>
+            <h4 class="fs-5 pt-3 text-light">Soporte Continuo</h4>
+            <p class="fs-6">
+              24/7 Atención de emergencias SAP <br />
+              y mesa de ayuda post-implementación.
+            </p>
+          </div>
+          <div class="col text-light text-center">
+            <div
+              class="d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 mb-3 portrait-img-size"
+            >
+              <img
+                class="img-fluid rounded-2"
+                src="../assets/images/miniillustrations2.png"
+                alt="cliente1"
+              />
+            </div>
+            <h4 class="fs-5 pt-3 text-light">Gestión de Roles y Perfiles</h4>
+            <p class="fs-6">
+              Análisis de seguridad para Sistemas SAP. <br />
+              Monitoreo de actividad y control de usuarios.
+            </p>
+          </div>
+          <div class="col text-light text-center">
+            <div
+              class="d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 mb-3 portrait-img-size"
+            >
+              <img
+                class="img-fluid rounded-2"
+                src="../assets/images/miniillustrations3.png"
+                alt="cliente1"
+              />
+            </div>
+            <h4 class="fs-5 pt-3 text-light">Plan de Mejoras Continuas</h4>
+            <p class="fs-6">
+              Desarrollos integrales para<br />
+              mejorar sus procesos productivos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Footer -->
+      <div class="container-fluid text-center bg-dark pt-5">
+        <!-- Formulario Contacto -->
+        <div class="row pb-3 row-cols-1 row-cols-md-3 justify-content-evenly">
+          <div class="col-md-4 mb-5">
+            <h2 class="fs-4 text-light">Contacto</h2>
+            <h3 class="fs-5 text-light">Envíe sus consultas</h3>
+            <div class="container">
+              <form class="row g-3 justify-content-center">
+                <div class="col-12 col-md-6">
+                  <label for="nombreApellido" class="form-label text-light"
+                    >Nombre</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombreApellido"
+                    name="nombre-apellido"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="telefono" class="form-label text-light"
+                    >Teléfono</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="telefono"
+                    name="telefono"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail" class="form-label text-light"
+                    >Email</label
+                  >
+                  <input type="email" class="form-control" id="inputEmail" />
+                </div>
+                <div class="form-floating col-12">
+                  <textarea
+                    class="form-control"
+                    placeholder="Envíenos sus consultas."
+                    id="floatingTextarea"
+                  ></textarea>
+                  <label for="floatingTextarea">Mensaje</label>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-light">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Sitemap -->
+          <nav class="nav flex-column col-md-3 text-center mb-3 px-3">
+            <h3 class="fs-4 pb-3 text-light">Sitemap</h3>
+            <a
+              class="nav-link text-light fw-light"
+              aria-current="page"
+              href="../index.html"
+              >Inicio</a
+            >
+            <a class="nav-link text-light fw-light" href="./nosotros.html"
+              >Nosotros</a
+            >
+            <a class="nav-link active text-light fw-bold" href="#">Servicios</a>
+            <a class="nav-link text-light fw-light" href="./contacto.html"
+              >Contacto</a
+            >
+            <a class="nav-link text-light fw-light" href="./postula.html"
+              >Trabaja con Nosotros</a
+            >
+          </nav>
+          <!-- Contact Info -->
+          <div class="col-md-3">
+            <div class="flex-column color-text pt-2">
+              <img
+                class="bg-light p-2 rounded-3"
+                src="../assets/images/logoipsum-287.svg"
+                alt="logo"
+              />
+              <div
+                class="d-flex justify-content-center align-items-baseline pt-2"
+              >
+                <span style="font-size: 1em; color: white">
+                  <i class="fa-solid fa-phone p-3"></i>
+                </span>
+                <p class="text-light">+ 54 9 11 12345678</p>
+              </div>
+              <div class="d-flex justify-content-center align-items-baseline">
+                <span style="font-size: 1em; color: white">
+                  <i class="fa-regular fa-envelope p-3"></i>
+                </span>
+                <p class="text-light">contacto@compañia.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center bg-accent px-4 p-2">
+        <p class="text-light">
+          Copyright 2022. Todos los derechos reservados. Jorge Rodriguez Silva
+        </p>
+      </div>
     </footer>
+    <!-- Bootstrap -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
